@@ -1,0 +1,47 @@
+def cerinte():
+
+def problem82():
+    a=int(input("valoare a: "))
+    if((a&1)==0):
+        print("numarul este par")
+    else:
+         print("numarul este impar")
+
+def problem83():
+    x = int(input("valoare x: "))
+    n = int(input("valoare n: "))
+     rez = (x >> (n*8))) &0xFF;
+    print("Bitul n din x este:" rez)
+
+def problem841():
+def problem842():
+def problem843():
+def problem844():
+def problem851():
+def problem852():
+def problem86():
+def problem87():
+
+def cerinte():
+    print("8.2. Se citeste un numar intreg de la tastatura.Sa se determine daca este par sau impar folosind doar operatorii logici la nivel de biti")
+    problem82()
+    print("8.3. Se citesc doua numere intregi x si n[0,15].Sa se afiseze bit-ul n din x")
+    problem83()
+    print("8.4. Se citesc doua numere intregi x si n[0,15]: Sa se afiseze:")
+    print("8.4.1. Numarul X in care se seteaza bitul numarul n la valoarea 0")
+    problem841()
+    print("8.4.2. Numarul X in care se seteaza bitul numarul n la valoarea 1")
+    problem842()
+    print("8.4.3. Numarul x in care se sterge bit-ul n")
+    problem843()
+    print("8.4.4. Numarul X in care se complementeaza bitul n")
+    problem844()
+    print("8.5. Sa se interschimbe valoarea a doua numere x,y fara a folosi alte variabile: 2 sol")
+    print("8.5.1. Folofind operatori aritmetici (+,-)")
+    problem851()
+    print("8.5.2. Folosind numai opperatori pe biti: xor")
+    problem852()
+    print("8.6. Sa se verifice daca un numar natural n este de forma 2k sau nu.")
+    problem86()
+    print("8.7. Se citesc intregii x,y,n,p. sa se copieze in x, incepand cu pozitia p, ultimii n biti din y . sa se afiseze noul y")
+    problem87()

@@ -1,0 +1,69 @@
+
+#include <stdio.h>
+#include <iostream>
+
+using namespace std;
+
+void cerinte();
+
+int main()
+{
+    
+    cerinte();
+    return 0;
+}
+void problem82(){
+     int a;
+    cin>>a;
+    if ((a & 1) == 0)
+        cout<<"Numarul este par."<<endl;
+    else
+        cout<<"Numarul este impar."<<endl;
+}
+
+void problem83(){
+    int x,n;
+    cin>>x>>n;
+    int rez = (x >> (n * 8)) & 0xFF;
+    cout<<"Bitul n din x este: "<< rez <<endl;
+
+}
+void problem841(){}
+void problem842(){}
+void problem843(){}
+void problem844(){}
+void problem851(){}
+void problem852(){}
+void problem86(){}
+void problem87(){}
+
+void cerinte()
+{
+   
+    cout<<"8.2. Se citeste un numar intreg de la tastatura.Sa se determine daca este par sau impar folosind doar operatorii logici la nivel de biti"<<endl;
+    problem82();
+    cout<<"8.3. Se citesc doua numere intregi x si n[0,15].Sa se afiseze bit-ul n din x "<<endl;
+    problem83();
+    cout<<"8.4. Se citesc doua numere intregi x si n[0,15]: Sa se afiseze: "<<endl;
+    cout<<"8.4.1. Numarul X in care se seteaza bitul numarul n la valoarea 0 "<<endl;
+    problem841();
+    cout<<"8.4.2. Numarul X in care se seteaza bitul numarul n la valoarea 1 "<<endl;
+    problem842();
+    cout<<"8.4.3. Numarul x in care se sterge bit-ul n"<<endl;
+    problem843();
+    cout<<"8.4.4. Numarul X in care se complementeaza bitul n"<<endl;
+    problem844();
+    cout<<"8.5. Sa se interschimbe valoarea a doua numere x,y fara a folosi alte variabile: 2 sol"<<endl;
+    cout<<"8.5.1. Folofind operatori aritmetici (+,-)"<<endl;
+    problem851();
+    cout<<"8.5.2. Folosind numai opperatori pe biti: xor"<<endl;
+    problem852();
+    cout<<"8.6. Sa se verifice daca un numar natural n este de forma 2k sau nu."<<endl;
+    problem86();
+    cout<<"8.7. Se citesc intregii x,y,n,p. sa se copieze in x, incepand cu pozitia p, ultimii n biti din y . sa se afiseze noul y."<<endl;
+    problem87();
+    
+}
+
+
+
